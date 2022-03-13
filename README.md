@@ -4,7 +4,7 @@
 
 ## Попередній перегляд
 
-[![Clean Blog (Jekyll) Preview](https://startbootstrap.com/assets/img/screenshots/themes/clean-blog-jekyll.png)](http://devich.github.io/landing-blog-demo/)
+[![Clean Blog (Jekyll) Preview](https://raw.githubusercontent.com/devich/landing-blog-demo/master/screenshot.png)](https://devich.github.io/landing-blog-demo/)
 
 **[Переглянути онлайн](https://devich.github.io/landing-blog-demo/)**
 
