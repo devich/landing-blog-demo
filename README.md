@@ -50,4 +50,4 @@ Start Bootstrap створений **[David Miller](http://davidmiller.io/)**.
 
 ## Права та ліцензія
 
-Copyright 2013-2021 Start Bootstrap LLC. Ukrainian adaptation by Oleksandr Devychenko. Code released under the [MIT license](https://github.com/devich/landing-blog-demo/blob/master/LICENSE).
+© Start Bootstrap LLC, 2013–2021 рр. © Олександр Девиченко, 2022 р. Код оприлюднено за [ліцензією MIT](https://github.com/devich/landing-blog-demo/blob/master/LICENSE).
