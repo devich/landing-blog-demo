@@ -42,9 +42,9 @@
 * <https://startbootstrap.com>
 * <https://twitter.com/SBootstrap>
 
-Start Bootstrap створений **[David Miller](http://davidmiller.io/)**.
+Start Bootstrap створений [David Miller](http://davidmiller.io/).
 
-Українська адаптація — **[Олександр Девиченко](https://github.com/devich/)**.
+Українська адаптація — [Олександр Девиченко](https://github.com/devich/).
 
 Фреймворк [Bootstrap](https://getbootstrap.com/) створений [Mark Otto](https://twitter.com/mdo) та [Jacob Thorton](https://twitter.com/fat).
 
