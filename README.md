@@ -1,6 +1,6 @@
 # Демо-сайт — лендінґ + блог/новини/оголошення
 
-Створено на базі [Start Bootstrap - Clean Blog Jekyll](https://startbootstrap.com/themes/clean-blog-jekyll/) - Official Jekyll Version
+Створено на базі [Start Bootstrap — Clean Blog Jekyll](https://startbootstrap.com/themes/clean-blog-jekyll/)
 
 ## Попередній перегляд
 
@@ -8,145 +8,46 @@
 
 **[Переглянути онлайн](https://devich.github.io/landing-blog-demo/)**
 
-## Installation & Setup
+## Встановлення та налаштування
 
-### Using RubyGems
+Демонстраційні файли, зображення, пудблікації і сторінки включено до архіву для завантаження.
+Після розпакування ви можете змінювати зміст файлів, редагувати публікації і сторінки.
 
-When installing the theme using RubyGems, demo images, posts, and pages are not included. Follow the instructions below for complete setup.
+1. [Завантажте](https://github.com/devich/landing-blog-demo/archive/refs/heads/master.zip) архів або
+склонуйте репозиторій.
 
-1. (Optional) Create a new Jekyll site: `jekyll new my-site`
-2. Replace the current theme in your `Gemfile` with `gem "jekyll-theme-clean-blog"`.
-3. Install the theme (run the command inside your site directory): `bundle install`
-4. Replace the current theme in your `_config.yml` file with `theme: jekyll-theme-clean-blog`.
-5. Build your site: `bundle exec jekyll serve`
-
-Assuming there are no errors and the site is building properly, follow these steps next:
-
-1. Create the following pages if they do not exist already (or change the extension of existing markdown files from `.md` to `.html`):
-
-   * `index.html` - set to `layout: home`
-   * `about.html` - set to `layout: page`
-   * `contact.html` - set to `layout: page`
-   * `posts/index.html` - set to `layout: page` (you will also need to create a `posts` directory)
-
-2. Configure the `index.html` front matter. Example:
-
-    ```markdown
-    ---
-    layout: home
-    background: '/PATH_TO_IMAGE'
-    ---
-    ```
-
-3. Configure the `about.html`, `contact.html`, and `posts/index.html` front matter. Example:
-
-    ```markdown
-    ---
-    layout: page
-    title: Page Title
-    description: This is the page description.
-    background: '/PATH_TO_IMAGE'
-    ---
-    ```
-
-4. For each post in the `_posts` directory, update the front matter. Example:
-
-    ```markdown
-    ---
-    layout: post
-    title: "Post Title"
-    subtitle: "This is the post subtitle."
-    date: YYYY-MM-DD HH:MM:SS
-    background: '/PATH_TO_IMAGE'
-    ---
-    ```
-
-    For reference, look at the [demo repository](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll) to see how the files are set up.
-
-5. Add the form to the `contact.html` page. Add the following code to your `contact.html` page:
-
-    ```html
-    <form name="sentMessage" id="contactForm" novalidate>
-      <div class="control-group">
-        <div class="form-group floating-label-form-group controls">
-          <label>Name</label>
-          <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
-          <p class="help-block text-danger"></p>
-        </div>
-      </div>
-      <div class="control-group">
-        <div class="form-group floating-label-form-group controls">
-          <label>Email Address</label>
-          <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
-          <p class="help-block text-danger"></p>
-        </div>
-      </div>
-      <div class="control-group">
-        <div class="form-group col-xs-12 floating-label-form-group controls">
-          <label>Phone Number</label>
-          <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
-          <p class="help-block text-danger"></p>
-        </div>
-      </div>
-      <div class="control-group">
-        <div class="form-group floating-label-form-group controls">
-          <label>Message</label>
-          <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
-          <p class="help-block text-danger"></p>
-        </div>
-      </div>
-      <br>
-      <div id="success"></div>
-      <div class="form-group">
-        <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
-      </div>
-    </form>
-    ```
-
-    Make sure you have the `email` setting in your `_config.yml` file set to a working email address! Once this is set, fill out the form and then check your email, verify the email address using the link sent to you by Formspree, and then the form will be working!
-
-6. Build your site: `bundle exec jekyll serve`
-
-### Using Core Files
-
-When using the core files, the demo images, posts, and pages are all included with the download. After following the instructions below, you can then go and change the content of the pages and posts.
-
-1. [Download](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/archive/master.zip) or Clone the repository.
-2. Update the following configuration settings in your `_config.yml` file:
+2. Змініть наступні дані у файлі `_config.yml`:
 
     * `baseurl`
     * `url`
     * `title`
-    * `email` (after setting this setting to a working email address, fill out the form on the contact page and send it - then check your email and verify the address and the form will send you messages when used)
+    * `email`
     * `description`
     * `author`
-    * `twitter_username` (Optional)
-    * `facebook_username` (Optional)
-    * `github_username` (Optional)
-    * `linkedin_username` (Optional)
-    * `instagram_username` (Optional)
+    * `twitter_username` (не обов'язково)
+    * `facebook_username` (не обов'язково)
+    * `github_username` (не обов'язково)
+    * `linkedin_username` (не обов'язково)
+    * `instagram_username` (не обов'язково)
+    * `telegram_username` (не обов'язково)
+    * `viber_username` (не обов'язково)
 
-3. Build your site: `bundle exec jekyll serve`
+3. Запустіть ваш сайт: `bundle exec jekyll serve` або використовуйте його на Github Pages.
 
-## Bugs and Issues
+## Про цей шаблон
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/issues) here on GitHub!
-
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+Шаблон створено на базі відкритої бібліотеки Start Bootstrap. Код є безкоштовним та розповсюджується
+за ліцензією MIT; ви можете вільно використовувати його для будь-яких цілей, включаючи комерційні проєкти.
 
 * <https://startbootstrap.com>
 * <https://twitter.com/SBootstrap>
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**.
+Start Bootstrap створений **[David Miller](http://davidmiller.io/)**.
 
-* <http://davidmiller.io>
-* <https://twitter.com/davidmillerhere>
-* <https://github.com/davidtmiller>
+Українська адаптація — **[Олександр Девиченко](https://github.com/devich/)**.
 
-Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+Фреймворк [Bootstrap](https://getbootstrap.com/) створений [Mark Otto](https://twitter.com/mdo) та [Jacob Thorton](https://twitter.com/fat).
 
-## Copyright and License
+## Права та ліцензія
 
-Copyright 2013-2021 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/blob/master/LICENSE) license.
+Copyright 2013-2021 Start Bootstrap LLC. Ukrainian adaptation by Oleksandr Devychenko. Code released under the [MIT license](https://github.com/devich/landing-blog-demo/blob/master/LICENSE).
