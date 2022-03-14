@@ -6,9 +6,9 @@ baseurl:            "/landing-blog-demo"
 url:                "https://devich.github.io"
 
 # Social Profiles
-twitter_username:   SBootstrap
+twitter_username:   
 github_username:    devich/landing-blog-demo
-facebook_username:  StartBootstrap
+facebook_username:  
 instagram_username:  
 linkedin_username:
 telegram_username:  dev1ch
